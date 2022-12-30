@@ -22,7 +22,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 
 ### `npm test`
 
@@ -36,7 +36,7 @@ NOTE: I also made some code clean-ups from the CRA template to keep it simple.
 
 CRA Web link: https://create-react-app.dev/
 
-## Reference Docs links:\
+## Reference Docs links:
 ReactJs `useReducer` hook Docs: https://reactjs.org/docs/hooks-reference.html#usereducer\
 React Testing Library (RTL) Docs: https://testing-library.com/docs/react-testing-library/example-intro\
 Also added some Emojis characters to make it fun 🙃:
