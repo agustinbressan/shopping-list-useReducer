@@ -79,7 +79,7 @@ test('add new item description text, button is enabled', () => {
     expect(addItemButton).toBeEnabled()
 });
 
-// Given a request to Add a new item and the the description input field is filled
+// Given a request to Add a new item and the description input field is filled
 // When the add item button is clicked
 // Then new item should be added to the list and the Items list title counter is updated
 test('add new item by clicking the button', () => {
@@ -100,7 +100,7 @@ test('add new item by clicking the button', () => {
     expect(itemsListTitleUpdated).toBeInTheDocument()
 });
 
-// Given a request to Add a new item and the the description input field is filled
+// Given a request to Add a new item and the description input field is filled
 // When the add item form is submitted
 // Then new item should be added to the list and the Items list title counter is updated
 test('add new item by submitting the form', () => {
