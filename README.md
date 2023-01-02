@@ -38,7 +38,7 @@ CRA Web link: https://create-react-app.dev/
 
 ## Reference Docs links:
 ReactJs `useReducer` hook Docs: https://reactjs.org/docs/hooks-reference.html#usereducer\
-React Testing Library (RTL) Docs: https://testing-library.com/docs/react-testing-library/example-intro\
-Also added some Emojis characters to make it fun 🙃:
+React Testing Library (RTL) Docs: https://testing-library.com/docs/react-testing-library/example-intro\ \
+Also added some Emojis to make it fun 🙃:
 - https://www.freecodecamp.org/news/all-emojis-emoji-list-for-copy-and-paste/
 - https://unicode.org/emoji/charts/full-emoji-list.html

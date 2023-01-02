@@ -8,9 +8,11 @@ import ShoppingList from '../ShoppingList'
 test('initial state, empty list', () => {
     // ARRANGE
     render(<ShoppingList />)
-    // ACT
-    const emptyItemListMessage = screen.getByText(/The item list is empty./i)
+
+    // ACT (No user action)
+
     // ASSERT
+    const emptyItemListMessage = screen.getByText(/The item list is empty./i)
     expect(emptyItemListMessage).toBeInTheDocument()
 });
 
@@ -20,9 +22,11 @@ test('initial state, empty list', () => {
 test('initial state, zero counter values', () => {
     // ARRANGE
     render(<ShoppingList />)
-    // ACT
-    const itemsListTitle = screen.getByText(/Items \(0\/0\)/i)
+
+    // ACT (No user action)
+    
     // ASSERT
+    const itemsListTitle = screen.getByText(/Items \(0\/0\)/i)
     expect(itemsListTitle).toBeInTheDocument()
 });
 
