@@ -1,5 +1,10 @@
-# Shopping List app (useReducer approach)
-This project is a 'To Do list' like app created with `ReactJs` to implement and practice the state management with the `useReducer` hook and the DOM testing with `React Testing Library`.
+# Shopping List app series (useReducer approach)
+This project is a 'To Do list' like app created with `ReactJs` to implement and practice different state management approaches and the DOM testing with `React Testing Library`.
+
+In this case I'm using the [`useReducer`](https://reactjs.org/docs/hooks-reference.html#usereducer) hook to manage the state.
+
+See the related `useContext` state management hook approach:
+-  [shopping-list-useContext](https://github.com/agustinbressan/shopping-list-useContext)
 
 ## How the App works
 The Shopping list app has 2 small sections with the following features:
@@ -17,14 +22,14 @@ The Shopping list app has 2 small sections with the following features:
 ## Available Scripts
 In the project directory, you can run:
 
-### `npm start`
+> `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.
 
-### `npm test`
+> `npm test`
 
 Launches the test runner in the interactive watch mode.
 
